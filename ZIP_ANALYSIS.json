@@ -1,0 +1,79 @@
+{
+  "archive": "/home/ubuntu/upload/Apex-GT-Circuito3-SOLO-SOL-FPS-2026-10-23(2).zip",
+  "archive_sha256": "9c9994721617c8c92002d658634ae7c56936cb2a6982d6f2aa1959866dd2205e",
+  "entries_total": 439,
+  "unique_paths": 439,
+  "duplicate_paths": {},
+  "uncompressed_bytes": 253477442,
+  "compressed_bytes": 240570029,
+  "unsafe_paths": [],
+  "symlinks": [],
+  "encrypted_entries": [],
+  "types": [
+    [
+      ".ts",
+      90
+    ],
+    [
+      ".jpg",
+      78
+    ],
+    [
+      ".webp",
+      64
+    ],
+    [
+      ".png",
+      63
+    ],
+    [
+      "[sin extensión]",
+      52
+    ],
+    [
+      ".mp3",
+      37
+    ],
+    [
+      ".tsx",
+      15
+    ],
+    [
+      ".wav",
+      12
+    ],
+    [
+      ".glb",
+      11
+    ],
+    [
+      ".md",
+      6
+    ],
+    [
+      ".json",
+      4
+    ],
+    [
+      ".mp4",
+      3
+    ],
+    [
+      ".example",
+      1
+    ],
+    [
+      ".lock",
+      1
+    ],
+    [
+      ".html",
+      1
+    ],
+    [
+      ".css",
+      1
+    ]
+  ],
+  "extraction_dir": "/home/ubuntu/analysis/apex-gt-circuito3"
+}
