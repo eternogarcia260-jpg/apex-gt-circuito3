@@ -25,7 +25,8 @@ import { createC3FlyerCapsules } from './SingaporeFlyerCapsules';
 import { createC3FlyerRims } from './SingaporeFlyerRims';
 import { createC3FlyerFootings } from './SingaporeFlyerFootings';
 import { createC3FlyerAxle } from './SingaporeFlyerAxle';
-import { buildC3FloodlightRig, createC3FloodlightSteelMaterial } from './SingaporeFloodlightDesign';
+import { buildC3OfflineExactFloodlightRig } from './SingaporeOfflineFloodlight';
+import { createC3FloodlightSteelMaterial } from './SingaporeFloodlightDesign';
 import { SingaporeCinematicAtmosphere } from './SingaporeCinematicAtmosphere';
 import { createC3WaterSurface, type C3WaterSurface } from './SingaporeWaterSurface';
 export class SingaporeTrackBuilder implements ITrackWorld {
@@ -730,10 +731,9 @@ export class SingaporeTrackBuilder implements ITrackWorld {
   }
 
   private buildInstancedStadiumFloodlights(): void {
-    const floodlights = buildC3FloodlightRig(
+    const floodlights = buildC3OfflineExactFloodlightRig(
       SINGAPORE_WAYPOINTS,
       this.halfWidth,
-      this.floodlightPoleMat,
       this.concreteBarrierMat,
     );
     this.group.add(floodlights);
